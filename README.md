@@ -34,7 +34,7 @@ A aplicação contém as seguintes funcionalidades:
 - **2**. Uma Tela de Esqueci a Senha contendo um simples formulário com o campo de e-mail.
   > - _O formulário de Esqueci a Senha só é validado com o campo preenchido corretamente._
 
-- **3**. Uma Tela de Cadastro de Usuário contendo um formulário com os campos de nome, nome da empresa, cnpj, e-mail.
+- **3**. Uma Tela de Cadastro de Palestrantes contendo um formulário com os campos de nome, nome da empresa, cnpj, e-mail.
   > - _O formulário de Cadastro de Usuário só é validado com os campos preenchidos corretamente._
   > - _A senha deve conter 8 caracteres._
   > - _No campo confirmação de senha, também possui validação, caso sejam divergentes não será possível o cadastro._
@@ -70,6 +70,7 @@ Antes de utilizar esta aplicação, é necessário ter o Node.js e o Angular CLI
 
 #### Pré-requisitos
 - Node.js (versão >= 10.13.0)
+- .net (versão >= 5.0.402)
 - npm (versão >= 6.11.0)
 - Angular CLI (versão >= 11.2.1)
 - MySQL
@@ -140,11 +141,13 @@ Antes de utilizar esta aplicação, é necessário ter o Node.js e o Angular CLI
 **Iniciar o backend**:
 1. Certifique-se de que o servidor backend está rodando primeiro. Navegue até o diretório do backend e execute:
     ```bash
+    cd ProEventos/Back/src
     npm start
     ```
 **Iniciar o Frontend**:
 1. Para iniciar o servidor de desenvolvimento, execute:
     ```bash
+    cd ProEventos/Front/ProEventos-App
     ng serve
     ```
 2. Navegue para [http://localhost:4200/](http://localhost:4200/). A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos de origem.
@@ -215,7 +218,9 @@ Antes de utilizar esta aplicação, é necessário ter o Node.js e o Angular CLI
   ├── Front/
   │   └── ProEventos-App
   │       ├── e2e/
+  │       │   └── ...
   │       ├── node_modules/
+  │       │   └── ...
   │       ├── src/
   │       │   ├── app/
   │       │   │   ├── components/
@@ -234,8 +239,11 @@ Antes de utilizar esta aplicação, é necessário ter o Node.js e o Angular CLI
   │       │   │   │   └── user/
   │       │   │   │       └── ...
   │       │   │   ├── guard/
+  │       │   │   │   └── ...
   │       │   │   ├── helpers/
+  │       │   │   │   └── ...
   │       │   │   ├── interceptors/
+  │       │   │   │   └── ...
   │       │   │   ├── services/
   │       │   │   │   ├── account.service.ts
   │       │   │   │   ├── evento.service.ts
@@ -254,7 +262,9 @@ Antes de utilizar esta aplicação, é necessário ter o Node.js e o Angular CLI
   │       │   │   │   └── RedeSocial.ts
   │       │   │   ├── shared/
   │       │   │   │   ├── nav/
+  │       │   │   │   └── ...
   │       │   │   │   └── titulo/
+  │       │   │   │   └── ...
   │       │   │   ├── util/
   │       │   │   │   └── ...
   │       │   │   ├── app-routing.module.ts
