@@ -13,11 +13,11 @@ Gizelle Emanuela da Silva
 
 # ProEventoSync
 ## INTRODUÇÃO
-<p style="text-align: justify;"><em>Named LAB Clothing Collection, the project aims to serve the fashion management sector, this repository presents the Back-End proposal for the software that aims to manage fashion collections and creation models in the clothing segment efficiently. This Back-End application was developed using C# and .NET utilizing the MySQL Server Express database.</em></p>
+<p style="text-align: justify;"><em>O projeto ProEventos foi criado para atender o setor de gestão de eventos. Este repositório apresenta a proposta de Front-End e Back-End para um software destinado a gerenciar eventos, como palestras, de maneira eficiente. O Front-End da aplicação foi desenvolvido com Angular CLI (versão >= 11.2.1), enquanto o Back-End foi construído usando C# e .NET, com o banco de dados MySQL Server Express.</em></p>
 
-#### Completion Certificate
-_This project was developed during the [Udemy](https://www.udemy.com/course/angular-dotnetcore-efcore/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Angular_new_v.PROF_la.PT_cc.BR_ti.28016&campaigntype=Search&portfolio=Brazil&language=PT&product=Course&test=&audience=DSA&topic=&priority=&utm_content=deal4584&utm_term=_._ag_125593855828_._ad_658167638057_._kw__._de_c_._dm__._pl__._ti_dsa-1208106379807_._li_9101163_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAjwvIWzBhAlEiwAHHWgvR0qg_-8gHWVcJa-msJdeLew6rm_wrc0B0bclkwZqUsOe7ikwpq79hoCnv0QAvD_BwE&couponCode=2021PM25) course, taught by [Vinícius de Andrade](https://www.udemy.com/user/vinicius-de-andrade/)._<br>
-You can access the certificate directly [→ here ←](path/to/the/certificate.pdf).
+#### Certificado de Conclusão
+_Este projeto foi desenvolvido durante o curso [Udemy](https://www.udemy.com/course/angular-dotnetcore-efcore/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Angular_new_v.PROF_la.PT_cc.BR_ti.28016&campaigntype=Search&portfolio=Brazil&language=PT&product=Course&test=&audience=DSA&topic=&priority=&utm_content=deal4584&utm_term=_._ag_125593855828_._ad_658167638057_._kw__._de_c_._dm__._pl__._ti_dsa-1208106379807_._li_9101163_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAjwvIWzBhAlEiwAHHWgvR0qg_-8gHWVcJa-msJdeLew6rm_wrc0B0bclkwZqUsOe7ikwpq79hoCnv0QAvD_BwE&couponCode=2021PM25), ministrado por [Vinícius de Andrade](https://www.udemy.com/user/vinicius-de-andrade/)._<br>
+Você pode acessar o certificado diretamente [→ aqui ←](path/to/the/certificate.pdf).
 
 ## _Índice_
 - [_Funcionalidades do Projeto_](#funcionalidades-do-projeto)
@@ -40,20 +40,20 @@ A aplicação contém as seguintes funcionalidades:
   > - _No campo confirmação de senha, também possui validação, caso sejam divergentes não será possível o cadastro._
   > - _O cnpj deve conter 14 caracteres._
 
-- **4**. Um Menu Lateral, contendo as opções .......
+- **4**. Um Menu superior, contendo as opções Dashboard, Eventos, Palestrantes e Contanto
 
 - **5**. Uma Tela de Dashboard.
   > - 
 
 - **6**. Uma Tela de Listagem de Eventos.
-  > - _._
-  > - _._
+  > - _Possui a funcionalidade de buscar um evento por localidade, assunto ou palestrante._
+  > - _É possivel recolher e expandir o grid com as imagens de divulgação dos eventos já cadastrados._
+  > - _É possivel editar ou excluir o evento desejado._
+
+- **7**. Uma Tela de Cadastro de Evento, contendo um formulário com os campos nome do evento, responsável/palestrante, imagem de divolgação, tema, local, hora, data, quantidade de pessoas e lote.
   > - _._
 
-- **7**. Uma Tela de Cadastro de Evento, contendo um formulário com os campos nome, responsável e hora e data.
-  > - _._
-
-- **8**. Uma Tela de Edição de Evento, contendo um formulário com os campos nome, responsável e hora e data.
+- **8**. Uma Tela de Edição de Evento, contendo um formulário com os campos nome do evento, responsável/palestrante, imagem de divolgação, tema, local, hora, data, quantidade de pessoas e lote.
 
 - **9**. Uma Tela de Listagem de Eventos.
   > - _._
