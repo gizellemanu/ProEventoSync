@@ -6,7 +6,7 @@
 
 #### Completion Certificate
 _This project was developed during the [Udemy](https://www.udemy.com/course/angular-dotnetcore-efcore/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Angular_new_v.PROF_la.PT_cc.BR_ti.28016&campaigntype=Search&portfolio=Brazil&language=PT&product=Course&test=&audience=DSA&topic=&priority=&utm_content=deal4584&utm_term=_._ag_125593855828_._ad_658167638057_._kw__._de_c_._dm__._pl__._ti_dsa-1208106379807_._li_9101163_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAjwvIWzBhAlEiwAHHWgvR0qg_-8gHWVcJa-msJdeLew6rm_wrc0B0bclkwZqUsOe7ikwpq79hoCnv0QAvD_BwE&couponCode=2021PM25) course, taught by [Vinícius de Andrade](https://www.udemy.com/user/vinicius-de-andrade/)._  
-You can access the certificate directly [→ here ←](path/to/the/certificate.pdf).
+You can access the certificate directly [→ here ←](https://github.com/gizellemanu/ProEventoSync/blob/main/certificate.jpg).
 
 ## _Index_
 - [_Project Features_](#project-features)
@@ -264,7 +264,7 @@ Before using this application, you need to have Node.js and Angular CLI installe
 
 #### Certificado de Conclusão
 _Este projeto foi desenvolvido durante o curso [Udemy](https://www.udemy.com/course/angular-dotnetcore-efcore/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Angular_new_v.PROF_la.PT_cc.BR_ti.28016&campaigntype=Search&portfolio=Brazil&language=PT&product=Course&test=&audience=DSA&topic=&priority=&utm_content=deal4584&utm_term=_._ag_125593855828_._ad_658167638057_._kw__._de_c_._dm__._pl__._ti_dsa-1208106379807_._li_9101163_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAjwvIWzBhAlEiwAHHWgvR0qg_-8gHWVcJa-msJdeLew6rm_wrc0B0bclkwZqUsOe7ikwpq79hoCnv0QAvD_BwE&couponCode=2021PM25), ministrado por [Vinícius de Andrade](https://www.udemy.com/user/vinicius-de-andrade/)._<br>
-Você pode acessar o certificado diretamente [→ aqui ←](path/to/the/certificate.pdf).
+Você pode acessar o certificado diretamente [→ aqui ←](https://github.com/gizellemanu/ProEventoSync/blob/main/certificado.jpg).
 
 ## _Índice_
 - [_Funcionalidades do Projeto_](#funcionalidades-do-projeto)
